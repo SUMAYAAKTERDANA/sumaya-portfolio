@@ -3,7 +3,8 @@
 A modern, fully responsive personal portfolio website built with **Next.js**, **TypeScript**, and **Tailwind CSS**.
 
 ## 🚀 Live Demo
-[Live Site Link]:https://sumaya-akter-portfolio.vercel.app/
+
+https://sumaya-akter-portfolio.vercel.app/
 
 ## ✨ Features
 - **Responsive Design:** Fully optimized for mobile, tablet, and desktop.
