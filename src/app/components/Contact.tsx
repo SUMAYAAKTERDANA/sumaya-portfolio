@@ -40,22 +40,21 @@ export default function Contact() {
           <div className="md:w-2/3 bg-gray-800 p-8 rounded-lg border border-gray-700">
            
             <form 
-              action="mailto:info.sumaya935@gmail.com" 
+              action="https://formspree.io/f/xjywboyq" 
               method="POST" 
-              encType="text/plain"
               className="space-y-4"
             >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input 
                   type="text" 
-                  name="Name"
+                  name="name"
                   placeholder="Your Name" 
                   className="w-full bg-gray-900 text-white p-3 rounded border border-gray-700 focus:outline-none focus:border-blue-500"
                   required
                 />
                 <input 
                   type="email" 
-                  name="Email"
+                  name="email"
                   placeholder="Your Email" 
                   className="w-full bg-gray-900 text-white p-3 rounded border border-gray-700 focus:outline-none focus:border-blue-500"
                   required
@@ -63,14 +62,14 @@ export default function Contact() {
               </div>
               <input 
                 type="text" 
-                name="Subject"
+                name="subject"
                 placeholder="Subject" 
                 className="w-full bg-gray-900 text-white p-3 rounded border border-gray-700 focus:outline-none focus:border-blue-500"
                 required
               />
               <textarea 
                 rows={4}
-                name="Message"
+                name="message"
                 placeholder="Your Message" 
                 className="w-full bg-gray-900 text-white p-3 rounded border border-gray-700 focus:outline-none focus:border-blue-500"
                 required
